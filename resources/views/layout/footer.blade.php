@@ -8,37 +8,25 @@
             </a>
 
             <p class="footer-text">
-                &copy; 2022 codewithsadee. <br> All rights reserved.
+                <br> All rights reserved.&copy; 2022 Aljabry Group.
             </p>
 
             <ul class="social-list">
-
                 <li>
-                    <a href="#" class="social-link">
+                    <a href="https://www.facebook.com/aljabrygroup" class="social-link">
                         <ion-icon name="logo-facebook"></ion-icon>
                     </a>
                 </li>
 
-                <li>
-                    <a href="#" class="social-link">
-                        <ion-icon name="logo-twitter"></ion-icon>
-                    </a>
-                </li>
 
                 <li>
-                    <a href="#" class="social-link">
-                        <ion-icon name="logo-dribbble"></ion-icon>
-                    </a>
-                </li>
-
-                <li>
-                    <a href="#" class="social-link">
+                    <a href="https://www.instagram.com/aljabrygroup/" class="social-link">
                         <ion-icon name="logo-instagram"></ion-icon>
                     </a>
                 </li>
 
                 <li>
-                    <a href="#" class="social-link">
+                    <a href="https://www.youtube.com/aljabrygroup" class="social-link">
                         <ion-icon name="logo-youtube"></ion-icon>
                     </a>
                 </li>
@@ -50,15 +38,41 @@
         <ul class="footer-list">
 
             <li>
-                <p class="h4 footer-list-title">Get in Touch</p>
+                <p class="h4 footer-list-title">
+                    Al Jabri Group of Companies
+                </p>
             </li>
 
             <li>
                 <address class="footer-text">
-                    Moonshine St. 14/05 Light City, London, United Kingdom
+                    <a href="https://www.aljabry.net/">Aljabry international Group </a>
                 </address>
             </li>
-
+            <li>
+                <address class="footer-text">
+                    <a href="https://aljabry.net/realestate">Aljabry Real Estate </a>
+                </address>
+            </li>
+            <li>
+                <address class="footer-text">
+                    <a href="https://www.instagram.com/healthtrip.tr/">Health Trip Turkey  </a>
+                </address>
+            </li>
+            <li>
+                <address class="footer-text">
+                    <a href="https://promotex.aljabry.net/">PROMOTEX  </a>
+                </address>
+            </li>
+            <li>
+                <address class="footer-text">
+                    <a href="https://www.aljabry.net/">Aljabry insurance & Tracking  </a>
+                </address>
+            </li>
+            <li>
+                <address class="footer-text">
+                    <a href="https://www.aljabry.net/">Aljabry Trade   </a>
+                </address>
+            </li>
             <li>
                 <a href="mailto:info@email.com" class="footer-link">info@email.com</a>
             </li>

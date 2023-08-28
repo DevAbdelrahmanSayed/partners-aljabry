@@ -7,9 +7,9 @@
     <div class="container">
 
       <a href="#" class="logo">
-          <img src="{{asset('assets/images/logo-light.png')}}" width="130" height="24" alt="Adex home">
+          <img src="{{asset('assets/images/logo-light.png')}}" width="100" height="20" alt="Adex home">
 
-        <img src="{{asset('assets/images/logo-dark.png') }}" width="130" height="24" alt="Adex home" class="logo-dark">
+{{--        <img src="{{asset('assets/images/logo-dark.png') }}" width="130" height="24" alt="Adex home" class="logo-dark">--}}
       </a>
 
         @include('layout.nav')
@@ -37,15 +37,15 @@
 
           <div class="hero-content">
 
-            <h1 class="h1 hero-title">Crafting project specific solutions with expertise.</h1>
+            <h1 class="h1 hero-title">Al-Jabri Partners Project ?</h1>
 
             <p class="hero-text">
-              We’re a creative company that focuses on establishing long-term relationships with customers.
+                There are no limits to our dreams, and there is no impossible. We exist to help people, to advance every day and succeed every day. We are destined to succeed because we deserve that. We invite you to join us. Do you want to know why
             </p>
 
             <div class="btn-wrapper">
 
-              <a href="#" class="btn btn-primary">Explore Now</a>
+              <a href="#" class="btn btn-primary">Why join Al Jabri Partners?</a>
 
               <a href="#" class="btn btn-outline">Contact Us</a>
 
@@ -105,10 +105,6 @@
         </div>
       </section>
 
-
-
-
-
       <!--
         - #SERVICE
       -->
@@ -119,7 +115,7 @@
           <p class="section-subtitle" id="service-label">What We Do?</p>
 
           <h2 class="h2 section-title">
-            The service we offer is specifically designed to meet your needs.
+              The largest freelance and commission marketing project in the Arab world
           </h2>
 
           <ul class="grid-list">
@@ -131,11 +127,10 @@
                   <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
                 </div>
 
-                <h3 class="h4 card-title">24/7 Support</h3>
+                <h3 class="h4 card-title">Full technical and technical support </h3>
 
                 <p class="card-text">
-                  Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus cras
-                  justo.
+                    You can market in your own way, but we do not leave you needing that, because we provide you with all the necessary written, audio and visual advertising materials to save you time, effort and money during the process of marketing your business.
                 </p>
 
                 <a href="#" class="btn-text">
@@ -154,11 +149,10 @@
                   <ion-icon name="shield-checkmark-outline" aria-hidden="true"></ion-icon>
                 </div>
 
-                <h3 class="h4 card-title">Secure Payments</h3>
+                <h3 class="h4 card-title">Free training and lessons </h3>
 
                 <p class="card-text">
-                  Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus cras
-                  justo.
+                    We offer you free courses and lessons in marketing, entrepreneurship, planning, how to build your own business and build a schedule to balance your social, health and financial life together. You are the focus of the change that we are working on.
                 </p>
 
                 <a href="#" class="btn-text">
@@ -177,11 +171,10 @@
                   <ion-icon name="cloud-download-outline" aria-hidden="true"></ion-icon>
                 </div>
 
-                <h3 class="h4 card-title">Daily Updates</h3>
+                <h3 class="h4 card-title">No salaries, but large commissions </h3>
 
                 <p class="card-text">
-                  Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus cras
-                  justo.
+                    We do not offer you a salary, because we want you to depend on your own income, and you get your right as a result of the work and not the number of hours you work. We came to free the aspirants from the bondage of the job
                 </p>
 
                 <a href="#" class="btn-text">
@@ -193,28 +186,28 @@
               </div>
             </li>
 
-            <li>
-              <div class="service-card">
+{{--            <li>--}}
+{{--              <div class="service-card">--}}
 
-                <div class="card-icon">
-                  <ion-icon name="pie-chart-outline" aria-hidden="true"></ion-icon>
-                </div>
+{{--                <div class="card-icon">--}}
+{{--                  <ion-icon name="pie-chart-outline" aria-hidden="true"></ion-icon>--}}
+{{--                </div>--}}
 
-                <h3 class="h4 card-title">Market Research</h3>
+{{--                <h3 class="h4 card-title">Market Research</h3>--}}
 
-                <p class="card-text">
-                  Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus cras
-                  justo.
-                </p>
+{{--                <p class="card-text">--}}
+{{--                  Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus cras--}}
+{{--                  justo.--}}
+{{--                </p>--}}
 
-                <a href="#" class="btn-text">
-                  <span class="span">Learn More</span>
+{{--                <a href="#" class="btn-text">--}}
+{{--                  <span class="span">Learn More</span>--}}
 
-                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
-                </a>
+{{--                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>--}}
+{{--                </a>--}}
 
-              </div>
-            </li>
+{{--              </div>--}}
+{{--            </li>--}}
 
           </ul>
 
@@ -229,118 +222,111 @@
         - #ABOUT
       -->
 
-      <section class="about" aria-labelledby="about-label">
-        <div class="container">
+        <section class="about" aria-labelledby="about-label">
+            <div class="container">
 
-          <figure class="about-banner">
-            <img src="./assets/images/about-banner.png" width="800" height="580" loading="lazy" alt="about banner"
-              class="w-100">
-          </figure>
+                <figure class="about-banner">
+                    <img src="./assets/images/about-banner.png" width="800" height="580" loading="lazy" alt="about banner"
+                         class="w-100">
+                </figure>
 
-          <div class="about-content">
+                <div class="about-content">
 
-            <p class="section-subtitle" id="about-label">Why Choose Us?</p>
+                    <p class="section-subtitle" id="about-label">Why Choose Us?</p>
 
-            <h2 class="h2 section-title">
-              We bring solutions to make life easier for our clients.
-            </h2>
+                    <h2 class="h2 section-title">
+                        The idea of “Al-Jabri Partners”
+                    </h2>
 
-            <ul>
+                    <ul class="accordion-list">
 
-              <li class="about-item">
-                <div class="accordion-card expanded" data-accordion>
+                        <li class="about-item">
+                            <div class="accordion-card expanded" data-accordion>
 
-                  <h3 class="card-title">
-                    <button class="accordion-btn" data-accordion-btn>
-                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+                                <h3 class="card-title">
+                                    <button class="accordion-btn" data-accordion-btn>
+                                        <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+                                        <span class="span h5">The idea</span>
+                                    </button>
+                                </h3>
 
-                      <spna class="span h5">Professional Design</spna>
-                    </button>
-                  </h3>
+                                <p class="accordion-content">
+                                    The idea of the “Al-Jabri Partners” project was a dream of Abdul Rahman Al-Jabri, which is embodied in the employment of more than half a million Arab youth, and that the services of the “Al-Jabri Group” enter every home in the Middle East. The project begins with the idea of ​​changing the culture of money and financial awareness in the Arab community, And training Arab young men and women on how to manage the opportunities and financial resources available to them. The project is also based on teaching young people how to start their personal projects, how to attract customers, how to earn money, how to help people and provide value in their societies. The project is not only about making money, but rather about an educated society. Full of energy, enthusiasm, and love of achievement and helping others. A society that seeks to promote itself, its people, and its country. The “Al-Jabri Partners” project is a school that trains you to limit challenges and face them with ease, and expand the circle of opportunities and exploit them. The “Al-Jabri Partners” project gives you the opportunity to self-employment and profit through the Internet. Without paying a single penny and without any commitment, we open the doors for you, show you the way and tighten your hands, but success or not depends on you, on how much you need success, depends on how much you need money and wealth, it depends on the motives that drive you to become rich, or Reasons that prevent you from remaining poor or middle-income.
+                                </p>
 
-                  <p class="accordion-content">
-                    Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo
-                    sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna,
-                    vel.
-                  </p>
+                            </div>
+                        </li>
 
-                </div>
-              </li>
+                        <li class="about-item">
+                            <div class="accordion-card" data-accordion>
 
-              <li class="about-item">
-                <div class="accordion-card" data-accordion>
+                                <h3 class="card-title">
+                                    <button class="accordion-btn" data-accordion-btn>
+                                        <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+                                        <span class="span h5">Dear young man, dear young lady</span>
+                                    </button>
+                                </h3>
 
-                  <h3 class="card-title">
-                    <button class="accordion-btn" data-accordion-btn>
-                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+                                <p class="accordion-content">
+                                    Since you have arrived here and read these words, this motivation exists within you, so do not wait for someone to move it for you and take it out. Start from now. Learn how to talk to people and market your own business. Learn how to act as a businessman or as a businesswoman. Learn everything that millionaires do, how They talk about how they eat, sleep and dress. Why do we teach you this? Because every category of people has common characteristics, so before you become a millionaire, you have to act like a millionaire, before you become rich, you have to act like a rich person.
 
-                      <spna class="span h5">Top-Notch Support</spna>
-                    </button>
-                  </h3>
+                                    We train you in the “Al-Jabri Partners Project” on how to communicate with people in a professional manner, and the ability to market any product or service you provide.
 
-                  <p class="accordion-content">
-                    Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo
-                    sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna,
-                    vel.
-                  </p>
+                                    We do not ask you for anything material about these courses, rather we ask that these courses have an impact on your material life, and an impact on your family and society, because the individual’s good is the community’s good, and everything starts from you.
 
-                </div>
-              </li>
+                                    You are the focus of the idea, young man, you are the focus of the idea, girl
 
-              <li class="about-item">
-                <div class="accordion-card" data-accordion>
+                                </p>
 
-                  <h3 class="card-title">
-                    <button class="accordion-btn" data-accordion-btn>
-                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+                                <div class="center-button"> <!-- Center-align button -->
+                                    <a class="accordion-card button-style" href="your-link-here" data-accordion>
+                                        <h3 class="card-title">
+                                  <span class="accordion-btn" data-accordion-btn>
+                                    <span class="span h5">Become a partner</span>
+                                  </span>
+                                        </h3>
+                                    </a>
+                                </div>
 
-                      <spna class="span h5">Exclusive Assets</spna>
-                    </button>
-                  </h3>
+                            </div>
+                        </li>
 
-                  <p class="accordion-content">
-                    Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo
-                    sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna,
-                    vel.
-                  </p>
+                    </ul>
 
                 </div>
-              </li>
 
-            </ul>
-
-          </div>
-
-        </div>
-      </section>
+            </div>
+        </section>
 
 
 
 
 
-      <!--
-        - #FEATURE
-      -->
+
+        <!--
+          - #FEATURE
+        -->
 
       <section class="section feature" aria-labelledby="feature-label">
         <div class="container">
 
           <figure class="feature-banner">
-            <img src="./assets/images/feature-banner.png" width="800" height="531" loading="lazy" alt="feature banner"
+            <img src="{{asset('assets/images/feature-banner.png')}}" width="800" height="531" loading="lazy" alt="feature banner"
               class="w-100">
           </figure>
 
           <div class="feature-content">
 
-            <p class="section-subtitle" id="feautre-label">Our Solutions</p>
+            <p class="section-subtitle" id="feautre-label">work nature </p>
 
             <h2 class="h2 section-title">
-              We make your spending stress-free for you to have the perfect control.
+                All you need is the drive to succeed.
             </h2>
 
             <p class="section-text">
-              Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras justo odio,
-              dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus.
+                You do not need to rent an office at the beginning of your business, and you do not need a computer or even a need to register your name with the tax department, all you need is only the motivation for success, ask yourself about the reason that calls you to earn money and succeed in your material life, as for the method in a project “ Al-Jabri Partners “It is that we provide you with complete information about the services provided by the Al-Jabri group of companies, it is wide and comprehensive for all that one needs for work or marketing in terms of services or products, starting with small services such as translation to businessmen’s services such as shipping goods and establishing companies and medical tourism (cosmetic operations , hair transplantation..etc) We provide you with this information in full, and we train you on how to market it, and provide you with all means of support related to advertisements.
+
+                As for you, all you have to do is contact the customer with us, and we provide him with complete free consultation and offer him our services with efficiency and high quality, and you will get your percentage of the entire work preserved by a contract signed between the Al-Jabri Group and you, wherever you are in any part of the globe, you will receive your profit immediately
             </p>
 
             <ul class="feature-list">
@@ -460,152 +446,7 @@
 
 
 
-
-
-      <!--
-        - #PROJECT
-      -->
-
-      <section class="section project" aria-labelledby="project-label">
-        <div class="container">
-
-          <p class="section-subtitle" id="project-label">Case Studies</p>
-
-          <h2 class="h2 section-title">
-            Check out some of our awesome projects with creative ideas and great design.
-          </h2>
-
-          <ul class="grid-list">
-
-            <li>
-              <div class="project-card">
-
-                <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
-                  <img src="./assets/images/blog-1.jpg" width="560" height="350" loading="lazy"
-                    alt="Ligula tristique quis risus" class="img-cover">
-                </figure>
-
-                <div class="card-content">
-
-                  <h3 class="h3">
-                    <a href="#" class="card-title">Ligula tristique quis risus</a>
-                  </h3>
-
-                  <p class="card-text">
-                    Mauris convallis non ligula non interdum. Gravida vulputate convallis tempus vestibulum cras
-                    imperdiet nun eu dolor.
-                  </p>
-
-                  <ul class="card-meta-list">
-
-                    <li class="card-meta-item">
-                      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
-
-                      <time class="meta-text" datetime="2022-04-14">14 Apr 2022</time>
-                    </li>
-
-                    <li class="card-meta-item">
-                      <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
-
-                      <span class="meta-text">Coding</span>
-                    </li>
-
-                  </ul>
-
-                </div>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="project-card">
-
-                <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
-                  <img src="./assets/images/blog-2.jpg" width="560" height="350" loading="lazy"
-                    alt="Nullam id dolor elit id nibh" class="img-cover">
-                </figure>
-
-                <div class="card-content">
-
-                  <h3 class="h3">
-                    <a href="#" class="card-title">Nullam id dolor elit id nibh</a>
-                  </h3>
-
-                  <p class="card-text">
-                    Mauris convallis non ligula non interdum. Gravida vulputate convallis tempus vestibulum cras
-                    imperdiet nun eu dolor.
-                  </p>
-
-                  <ul class="card-meta-list">
-
-                    <li class="card-meta-item">
-                      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
-
-                      <time class="meta-text" datetime="2022-03-29">29 Mar 2022</time>
-                    </li>
-
-                    <li class="card-meta-item">
-                      <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
-
-                      <span class="meta-text">Workspace</span>
-                    </li>
-
-                  </ul>
-
-                </div>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="project-card">
-
-                <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
-                  <img src="./assets/images/blog-3.jpg" width="560" height="350" loading="lazy"
-                    alt="Ultricies fusce porta elit" class="img-cover">
-                </figure>
-
-                <div class="card-content">
-
-                  <h3 class="h3">
-                    <a href="#" class="card-title">Ultricies fusce porta elit</a>
-                  </h3>
-
-                  <p class="card-text">
-                    Mauris convallis non ligula non interdum. Gravida vulputate convallis tempus vestibulum cras
-                    imperdiet nun eu dolor.
-                  </p>
-
-                  <ul class="card-meta-list">
-
-                    <li class="card-meta-item">
-                      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
-
-                      <time class="meta-text" datetime="2022-02-26">26 Feb 2022</time>
-                    </li>
-
-                    <li class="card-meta-item">
-                      <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
-
-                      <span class="meta-text">Meeting</span>
-                    </li>
-
-                  </ul>
-
-                </div>
-
-              </div>
-            </li>
-
-          </ul>
-
-        </div>
-      </section>
-
-
-
-
-
+        
       <!--
         - #CTA
       -->

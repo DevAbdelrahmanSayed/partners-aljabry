@@ -10,7 +10,7 @@
         <li><a href="#" class="navbar-link">Dividend system</a></li>
         <li><a href="#" class="navbar-link">Additional rewards</a></li>
         <li><a href="#" class="navbar-link">Terms and Condition</a></li>
-        <li><a href="#" class="navbar-link">Call us</a></li>
+        <li><a href="#" class="navbar-link">Contact Us</a></li>
     </ul>
     <div class="wrapper">
         <a href="mailto:info@email.com" class="contact-link">info@email.com</a>
